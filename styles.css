@@ -1,0 +1,54 @@
+body {
+    background: #112c44;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1.5em;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+
+h1 {
+    letter-spacing: 0.15em;
+}
+
+h2 {
+    color: #b5b6c1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.6em 1em;
+    vertical-align: middle;
+}
+
+th {
+    border-bottom: 1px solid #6f7381;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+section {
+    padding: 1em;
+    padding-top: 2em;
+    width: max-content;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.overdrawn {
+    color: #fca905;
+}
